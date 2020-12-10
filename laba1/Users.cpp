@@ -87,7 +87,7 @@ void Users::ChangeDate(const MyDate& Date)
 
 bool operator==(const Users& user1, const Users& user2)
 {
-	if (user1.Name != user2.Name || user1.PhoneNumber != user2.PhoneNumber || user1.Adress != user2.Adress || user1.Price != user2.Price || user1.Date != user2.Date)
+	if (user1.Name != user2.Name || user1.PhoneNumber != user2.PhoneNumber || user1.Adress != user2.Adress || this->TypeOfBuilding != user.TypeOfBuilding || user1.Price != user2.Price || user1.Date != user2.Date)
 	{
 		return false;
 	}
