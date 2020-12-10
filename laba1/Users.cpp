@@ -32,7 +32,7 @@ Users::Users(const Users& user)
 
 bool Users::Equal(const Users& user)
 {
-	if (this->Name != user.Name || this->PhoneNumber != user.PhoneNumber || this->Adress != user.Adress || this->Price != user.Price || this->Date != user.Date)
+	if (this->Name != user.Name || this->PhoneNumber != user.PhoneNumber || this->Adress != user.Adress || this->TypeOfBuilding != user.TypeOfBuilding || this->Price != user.Price || this->Date != user.Date)
 	{
 		return false;
 	}
