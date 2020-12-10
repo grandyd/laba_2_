@@ -1,0 +1,6 @@
+﻿  main.cpp
+C:\Users\Георгий\source\repos\laba1\laba1\Tabl.h(7,1): warning C4099: Tabl: имя типа, ранее отображенное с помощью "class", теперь отображено с помощью "struct"
+C:\Users\Георгий\source\repos\laba1\laba1\Tabl.h(6): message : см. объявление "Tabl"
+C:\Users\Георгий\source\repos\laba1\laba1\main.cpp(44,6): warning C4101: pick: неиспользованная локальная переменная
+C:\Users\Георгий\source\repos\laba1\laba1\main.cpp(143): warning C4715: Find: значение возвращается не при всех путях выполнения
+  laba1.vcxproj -> C:\Users\Георгий\source\repos\laba1\Debug\laba1.exe
